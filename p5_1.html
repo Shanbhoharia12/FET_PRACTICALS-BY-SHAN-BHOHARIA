@@ -1,0 +1,122 @@
+<!--In a part of development an algorithm for security, there is a need to get a perfect number
+greater than a number entered by the end-user.
+Note : According to Wikipedia : In number theory, a perfect number is a positive integer that is
+equal to the sum of its proper positive divisors, that is, the sum of its positive divisors excluding
+the number itself (also known as its aliquot sum).
+OR Equivalently, a perfect number is a number that is half the sum of all of its positive divisors
+(including itself).
+Example : The first perfect number is 6, because 1, 2, and 3 are its proper positive divisors, and
+1 + 2 + 3 = 6.
+Equivalently, the number 6 is equal to half the sum of all its positive divisors: ( 1 + 2 + 3 + 6 ) / 2
+= 6. The next perfect number is 28 = 1 + 2 + 4 + 7 + 14. This is followed by the perfect numbers
+496 and 8128.--->
+
+
+ <!--Path: p6.html -->
+ <!--Compare this snippet from P5.html: -->
+ 
+
+ <!-- <html>
+  
+
+ <head>
+
+
+<title>PRAC-5_21162121005-BDA</title>
+
+ </head>
+
+ 
+
+ <body>
+ 
+ <script>
+    
+      
+
+ var x = prompt("Enter the number");
+        
+            
+ var y = x.split("");
+
+ 
+ var z = y.reverse();
+    
+ var a = z.join("");
+
+
+
+    
+    
+
+ if(x == a)
+    
+    
+
+ document.write("The number is palindrome");
+    
+                             
+
+ else
+    
+                             
+
+ document.write("The number is not palindrome");
+    
+                                        
+ </script>
+    
+                                            
+
+ </body> 
+    
+                                                
+
+ </html>
+    
+    
+ -->
+
+<!-- 
+  <html>
+    <head>
+      <script src="p5_1.js"></script>
+    </head>
+    <body>
+      <div>
+        <label>Enter a number: </label>
+        <input type="number" id="inputNumber">
+        <button id="findBtn">Find Next Perfect Number</button>
+      </div>
+      <div id="result"></div>
+    </body>
+  </html> -->
+
+
+  <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>SHAN BHOHARIA</title>
+
+
+</head>
+
+<body>
+
+  <form>
+    <label for="numb">Enter a number : </label><br>
+    <input type="number" id="numb"><br>
+    <button onclick="check()" onsubmit="return myFunction();">Submit</button>
+  </form>
+
+    <p1 id="p5_1"></p1>
+
+
+  <script src="p5_1.js"></script>
+
+</body>
+
+</html>
