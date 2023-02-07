@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>prac-3_2</title>
+    </head>
+    <body>
+      <script>
+              alert("Welcome to CoWin application portal")
+              
+        </script>
+        <P>Cick it </P>
+        <button onclick="vaccine()">Click Me!</button>
+        <script>
+            function vaccine(){
+                let nationality=prompt("enter  your nationality : ");
+
+                if(nationality!="india"){
+                    alert("yield to the indian citizens only");
+                }
+                else {
+                    let v_dose = prompt("enter your vaccine dose : ");
+
+                    if(v_dose>0)
+                    {
+                        alert("you are  eligible for vaccination");
+                    }
+                    else
+                    {
+                        alert("you are not eligible for vaccination");
+                    }
+                }
+                
+            }
+   
+        </script>
+    </body>
+</html>
